@@ -1,7 +1,8 @@
-
 <!DOCTYPE html>
-<html>
-  <body>
-     {{ page.title }}
-  </body>
+<html lang="en">
+{% include head.html %}
+<body class="is-preload">
+  {{ content }}
+  {% include javascripts.html %}
+</body>
 </html>

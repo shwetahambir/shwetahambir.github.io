@@ -1,0 +1,20 @@
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	{% include favicon.html %}
+	{% include SEO.html %}
+	{% include analytics.html %}
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#524962">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#524962">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#524962">
+	<!-- Styles -->
+	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
+    <noscript><link rel="stylesheet" href="{{ site.baseurl }}assets/css/noscript.css" /></noscript>
+</head>
