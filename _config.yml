@@ -1,4 +1,4 @@
-title: Armando Maynez
+title: Dr. Shweta Hambir
 description: 'My personal site.' # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -6,7 +6,7 @@ url: "https://amaynez.github.io" # the base hostname & protocol for your site, e
 images: "/images/"
 
 # Author settings
-author: Armando Maynez # add your name
+author: Dr. Shweta Hambir # add your name
 author-pic: Myself_Neon_grey.jpg
 about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
 
